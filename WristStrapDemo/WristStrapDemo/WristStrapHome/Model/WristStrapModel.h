@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "WristStrapCommon.h"
 /*
  FirmwareVerison: (null), pairType: 1, sn: (null), identifier: 8B1F4532-2703-4EAA-8A61-C171032AC77A, mac: 08:7C:BE:0F:D0:0F, modelName: Sharkey_B1, name: Sharkey-B1-11017, bleVersion: (null)
  */

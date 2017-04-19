@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "WristStrapCommon.h"
 @interface AppDelegate ()
 
 @end

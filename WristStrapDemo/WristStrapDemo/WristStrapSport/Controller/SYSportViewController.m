@@ -8,7 +8,7 @@
 
 #import "SYSportViewController.h"
 #import "OBSportView.h"
-
+#import "WristStrapCommon.h"
 @interface SYSportViewController ()<WCDSharkeyFunctionDelegate>
 @property(nonatomic,strong)WCDSharkeyFunction *shareKey;
 @property(nonatomic,strong) OBSportView *sportView;

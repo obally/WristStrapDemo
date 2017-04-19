@@ -7,7 +7,7 @@
 //
 
 #import "OBRoundView.h"
-
+#import "WristStrapCommon.h"
 #define  CENTER   CGPointMake(self.width *.5, self.height *.5)
 @interface OBRoundView ()
 /** 外圈  */

@@ -11,6 +11,7 @@
 #import "OBDataManager.h"
 #import "SYSportViewController.h"
 #import "SYSleepViewController.h"
+#import "WristStrapCommon.h"
 @interface SYWristStapHomeViewController ()<WCDSharkeyFunctionDelegate>
 @property(nonatomic,strong)WCDSharkeyFunction *shareKey;
 @property(nonatomic,strong)WristStrapModel *strapModel; //手环数据

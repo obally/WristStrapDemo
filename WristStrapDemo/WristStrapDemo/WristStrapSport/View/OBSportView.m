@@ -8,7 +8,7 @@
 
 #import "OBSportView.h"
 #import "OBRoundView.h"
-
+#import "WristStrapCommon.h"
 @interface OBSportView ()
 
 @property(nonatomic,strong) UILabel *stepNum;
