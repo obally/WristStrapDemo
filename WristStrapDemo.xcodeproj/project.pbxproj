@@ -64,7 +64,6 @@
 		2B014CAA1E9C6DE900DE4732 /* WristStrapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WristStrapDemoUITests.m; sourceTree = "<group>"; };
 		2B014CAC1E9C6DE900DE4732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B014CBF1E9CA7E300DE4732 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		2B4760171E9DC9830032799D /* libSharkeySDKWithiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSharkeySDKWithiOS.a; path = WristStrapDemo/libSharkeySDKWithiOS.a; sourceTree = "<group>"; };
 		2B6278DD1EA5F0C900FC9838 /* OBDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDataManager.h; sourceTree = "<group>"; };
 		2B6278DE1EA5F0C900FC9838 /* OBDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDataManager.m; sourceTree = "<group>"; };
 		2B6278E01EA5F0C900FC9838 /* libSharkeySDKWithiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSharkeySDKWithiOS.a; sourceTree = "<group>"; };
@@ -411,7 +410,6 @@
 		B92F5F6F1626F720F26E5EA3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2B4760171E9DC9830032799D /* libSharkeySDKWithiOS.a */,
 				8EB9CE692CFA3C43548DBFCC /* libPods-WristStrapDemo.a */,
 			);
 			name = Frameworks;
