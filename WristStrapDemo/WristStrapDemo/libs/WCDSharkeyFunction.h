@@ -220,7 +220,6 @@ typedef void(^APDUCommandsBlack)(BOOL result, NSArray *respondDatas);
 /**
  *  
  *
- *  @param result
  */
 typedef void (^BindDeviceResult)(BindorUnBoundDeviceResultCode result);
 typedef void (^QueryBoundDevicesResult)(NSArray *devices);
@@ -239,8 +238,8 @@ typedef void (^QueryCardNumberBlockHandler)(BOOL flag, NSString *cardNumber);
 /**
  *  配置SDK的执行环境
  *
- *  @param appDelegate
- *  @param flag         YES: 正式环境
+ *  appDelegate
+ *  flag         YES: 正式环境
  *                       NO: 测试环境
  */
 + (void)configuration:(id<UIApplicationDelegate>)appDelegate isRelease:(BOOL)flag;
@@ -421,8 +420,8 @@ typedef void (^QueryCardNumberBlockHandler)(BOOL flag, NSString *cardNumber);
 /**
  *  切换快慢速通道
  *
- *  @param option
- *  @param blockHandler
+ *  option
+ *
  */
 - (void)switchBLEChannel:(ChannelOptions)option block:(APDUChannelBlack)blockHandler;
 
@@ -519,7 +518,7 @@ typedef void (^QueryCardNumberBlockHandler)(BOOL flag, NSString *cardNumber);
 /**
  *  设置闹钟
  *
- *  @param 闹钟数据, AlarmClockData集合
+ *   闹钟数据, AlarmClockData集合
  */
 - (void)setAlockTime:(NSArray*)timearr;
 
@@ -571,7 +570,6 @@ typedef void (^QueryCardNumberBlockHandler)(BOOL flag, NSString *cardNumber);
 /**
  *  获取SDK版本号
  *
- *  @return
  */
 + (NSString *)fetchSDKVersion;
 

@@ -103,14 +103,14 @@
     [formatter setDateFormat:@"yyyy年MM月dd日 HH:mm"];
     NSDate* date = [NSDate dateWithTimeIntervalSince1970:startMinute*60.0];
     NSString* dateString = [formatter stringFromDate:date];
-//   @"201701111111" 
-    SleepDataInfo *info =  [self.shareKey analyseSleep:( [[NSDate date] timeIntervalSince1970] - 60*60*15) data:rawData gatherRate:gatherRate];
-    NSDate* date1 =  [NSDate dateWithTimeIntervalSince1970:info.startMinute];
-    NSDate* date2 =  [NSDate dateWithTimeIntervalSince1970:info.deepMinute];
-    NSDate* date3 =  [NSDate dateWithTimeIntervalSince1970:info.lightMinute];
-    NSDate* date4 =  [NSDate dateWithTimeIntervalSince1970:info.totalMinute];
-    SleepSectionInfo *infos= info.sectionInfos[0];
-    NSLog(@"睡眠数据 ----------%@",info);
+//   @"201701111111"
+//    SleepDataInfo *info =  [self.shareKey analyseSleep:( [[NSDate date] timeIntervalSince1970] - 60*60*15) data:rawData gatherRate:gatherRate];
+//    NSDate* date1 =  [NSDate dateWithTimeIntervalSince1970:info.startMinute];
+//    NSDate* date2 =  [NSDate dateWithTimeIntervalSince1970:info.deepMinute];
+//    NSDate* date3 =  [NSDate dateWithTimeIntervalSince1970:info.lightMinute];
+//    NSDate* date4 =  [NSDate dateWithTimeIntervalSince1970:info.totalMinute];
+//    SleepSectionInfo *infos= info.sectionInfos[0];
+    NSLog(@"睡眠数据 ----------%@",dateString);
 }
 #pragma mark - getter and setter
 @end

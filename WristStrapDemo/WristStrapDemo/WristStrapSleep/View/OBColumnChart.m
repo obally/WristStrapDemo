@@ -71,7 +71,7 @@
 
         _BGScrollView = [[UIScrollView alloc] initWithFrame:self.bounds];
         _BGScrollView.showsHorizontalScrollIndicator = NO;
-        _bgVewBackgoundColor = _bgVewBackgoundColor;
+//        _bgVewBackgoundColor = _bgVewBackgoundColor;
         [self addSubview:_BGScrollView];
         
     }
@@ -185,7 +185,7 @@
     [self clear];
     
     _columnWidth = (_columnWidth<=0?30:_columnWidth);
-    NSInteger count = _valueArr.count * [_valueArr[0] count];
+//    NSInteger count = _valueArr.count * [_valueArr[0] count];
     _typeSpace = (_typeSpace<=0?15:_typeSpace);
     _columnSpace = (_columnSpace<=0?5:_columnSpace);
     _maxWidth = self.frame.size.width - 40;
