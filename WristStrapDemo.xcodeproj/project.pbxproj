@@ -15,7 +15,6 @@
 		2B014C951E9C6DE900DE4732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B014C931E9C6DE900DE4732 /* LaunchScreen.storyboard */; };
 		2B014CA01E9C6DE900DE4732 /* WristStrapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B014C9F1E9C6DE900DE4732 /* WristStrapDemoTests.m */; };
 		2B014CAB1E9C6DE900DE4732 /* WristStrapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B014CAA1E9C6DE900DE4732 /* WristStrapDemoUITests.m */; };
-		2B4760181E9DC9830032799D /* libSharkeySDKWithiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4760171E9DC9830032799D /* libSharkeySDKWithiOS.a */; };
 		2B6278F91EA5F0C900FC9838 /* OBDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6278DE1EA5F0C900FC9838 /* OBDataManager.m */; };
 		2B6278FA1EA5F0C900FC9838 /* libSharkeySDKWithiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6278E01EA5F0C900FC9838 /* libSharkeySDKWithiOS.a */; };
 		2B6278FB1EA5F0C900FC9838 /* WristStrapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6278E71EA5F0C900FC9838 /* WristStrapModel.m */; };
@@ -99,7 +98,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B4760181E9DC9830032799D /* libSharkeySDKWithiOS.a in Frameworks */,
 				2ED6BFA48240526657A25F7A /* libPods-WristStrapDemo.a in Frameworks */,
 				2B6278FA1EA5F0C900FC9838 /* libSharkeySDKWithiOS.a in Frameworks */,
 			);
