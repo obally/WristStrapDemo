@@ -7,7 +7,7 @@
 //
 
 #import "SYHomeModule.h"
-#import "WristStrapCommon.h"
+
 #import "SYWristStapHomeViewController.h"
 @implementation SYHomeModule
 + (void)load

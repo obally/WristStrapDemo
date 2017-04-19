@@ -8,7 +8,7 @@
 
 #import "SYSleepViewController.h"
 #import "OBColumnChart.h"
-#import "WristStrapCommon.h"
+
 @interface SYSleepViewController ()<WCDSharkeyFunctionDelegate>
 @property(nonatomic,strong)WCDSharkeyFunction *shareKey;
 
