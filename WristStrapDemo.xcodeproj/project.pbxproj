@@ -15,6 +15,19 @@
 		2B014C951E9C6DE900DE4732 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B014C931E9C6DE900DE4732 /* LaunchScreen.storyboard */; };
 		2B014CA01E9C6DE900DE4732 /* WristStrapDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B014C9F1E9C6DE900DE4732 /* WristStrapDemoTests.m */; };
 		2B014CAB1E9C6DE900DE4732 /* WristStrapDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B014CAA1E9C6DE900DE4732 /* WristStrapDemoUITests.m */; };
+		2B4760181E9DC9830032799D /* libSharkeySDKWithiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B4760171E9DC9830032799D /* libSharkeySDKWithiOS.a */; };
+		2B6278F91EA5F0C900FC9838 /* OBDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6278DE1EA5F0C900FC9838 /* OBDataManager.m */; };
+		2B6278FA1EA5F0C900FC9838 /* libSharkeySDKWithiOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B6278E01EA5F0C900FC9838 /* libSharkeySDKWithiOS.a */; };
+		2B6278FB1EA5F0C900FC9838 /* WristStrapModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6278E71EA5F0C900FC9838 /* WristStrapModel.m */; };
+		2B6278FE1EA5F16400FC9838 /* SYWristStapHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6278FD1EA5F16400FC9838 /* SYWristStapHomeViewController.m */; };
+		2B6279031EA6092A00FC9838 /* SYSportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6279021EA6092A00FC9838 /* SYSportViewController.m */; };
+		2B6279081EA60A8900FC9838 /* OBRoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6279051EA60A8900FC9838 /* OBRoundView.m */; };
+		2B6279091EA60A8900FC9838 /* OBSportView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6279071EA60A8900FC9838 /* OBSportView.m */; };
+		2B62790C1EA60E6C00FC9838 /* SYSleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B62790B1EA60E6C00FC9838 /* SYSleepViewController.m */; };
+		2B6279111EA60E8400FC9838 /* OBChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B62790E1EA60E8400FC9838 /* OBChart.m */; };
+		2B6279121EA60E8400FC9838 /* OBColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6279101EA60E8400FC9838 /* OBColumnChart.m */; };
+		2B9BE7841EA7116D0068BCEE /* SYHomeModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9BE7831EA7116D0068BCEE /* SYHomeModule.m */; };
+		2ED6BFA48240526657A25F7A /* libPods-WristStrapDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EB9CE692CFA3C43548DBFCC /* libPods-WristStrapDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,34 @@
 		2B014CA61E9C6DE900DE4732 /* WristStrapDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WristStrapDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B014CAA1E9C6DE900DE4732 /* WristStrapDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WristStrapDemoUITests.m; sourceTree = "<group>"; };
 		2B014CAC1E9C6DE900DE4732 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B014CBF1E9CA7E300DE4732 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2B4760171E9DC9830032799D /* libSharkeySDKWithiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSharkeySDKWithiOS.a; path = WristStrapDemo/libSharkeySDKWithiOS.a; sourceTree = "<group>"; };
+		2B6278DD1EA5F0C900FC9838 /* OBDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBDataManager.h; sourceTree = "<group>"; };
+		2B6278DE1EA5F0C900FC9838 /* OBDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBDataManager.m; sourceTree = "<group>"; };
+		2B6278E01EA5F0C900FC9838 /* libSharkeySDKWithiOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSharkeySDKWithiOS.a; sourceTree = "<group>"; };
+		2B6278E11EA5F0C900FC9838 /* WCDSharkeyFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCDSharkeyFunction.h; sourceTree = "<group>"; };
+		2B6278E61EA5F0C900FC9838 /* WristStrapModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WristStrapModel.h; sourceTree = "<group>"; };
+		2B6278E71EA5F0C900FC9838 /* WristStrapModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WristStrapModel.m; sourceTree = "<group>"; };
+		2B6278FC1EA5F16400FC9838 /* SYWristStapHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYWristStapHomeViewController.h; sourceTree = "<group>"; };
+		2B6278FD1EA5F16400FC9838 /* SYWristStapHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYWristStapHomeViewController.m; sourceTree = "<group>"; };
+		2B6279001EA5F2F500FC9838 /* WristStrapCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WristStrapCommon.h; sourceTree = "<group>"; };
+		2B6279011EA6092A00FC9838 /* SYSportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSportViewController.h; sourceTree = "<group>"; };
+		2B6279021EA6092A00FC9838 /* SYSportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSportViewController.m; sourceTree = "<group>"; };
+		2B6279041EA60A8900FC9838 /* OBRoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBRoundView.h; sourceTree = "<group>"; };
+		2B6279051EA60A8900FC9838 /* OBRoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBRoundView.m; sourceTree = "<group>"; };
+		2B6279061EA60A8900FC9838 /* OBSportView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBSportView.h; sourceTree = "<group>"; };
+		2B6279071EA60A8900FC9838 /* OBSportView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBSportView.m; sourceTree = "<group>"; };
+		2B62790A1EA60E6C00FC9838 /* SYSleepViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYSleepViewController.h; sourceTree = "<group>"; };
+		2B62790B1EA60E6C00FC9838 /* SYSleepViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYSleepViewController.m; sourceTree = "<group>"; };
+		2B62790D1EA60E8400FC9838 /* OBChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBChart.h; sourceTree = "<group>"; };
+		2B62790E1EA60E8400FC9838 /* OBChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBChart.m; sourceTree = "<group>"; };
+		2B62790F1EA60E8400FC9838 /* OBColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBColumnChart.h; sourceTree = "<group>"; };
+		2B6279101EA60E8400FC9838 /* OBColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBColumnChart.m; sourceTree = "<group>"; };
+		2B9BE7821EA7116D0068BCEE /* SYHomeModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SYHomeModule.h; sourceTree = "<group>"; };
+		2B9BE7831EA7116D0068BCEE /* SYHomeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SYHomeModule.m; sourceTree = "<group>"; };
+		58BD3C0C7DA3DEAA60E39F02 /* Pods-WristStrapDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristStrapDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WristStrapDemo/Pods-WristStrapDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8EB9CE692CFA3C43548DBFCC /* libPods-WristStrapDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WristStrapDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D152EFC5776DAD04E60E72A /* Pods-WristStrapDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WristStrapDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WristStrapDemo/Pods-WristStrapDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +99,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4760181E9DC9830032799D /* libSharkeySDKWithiOS.a in Frameworks */,
+				2ED6BFA48240526657A25F7A /* libPods-WristStrapDemo.a in Frameworks */,
+				2B6278FA1EA5F0C900FC9838 /* libSharkeySDKWithiOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +129,8 @@
 				2B014C9E1E9C6DE900DE4732 /* WristStrapDemoTests */,
 				2B014CA91E9C6DE900DE4732 /* WristStrapDemoUITests */,
 				2B014C831E9C6DE900DE4732 /* Products */,
+				F4BA19F69F5371080EE5E1F8 /* Pods */,
+				B92F5F6F1626F720F26E5EA3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +147,7 @@
 		2B014C841E9C6DE900DE4732 /* WristStrapDemo */ = {
 			isa = PBXGroup;
 			children = (
+				2B6278DB1EA5F0C900FC9838 /* WristStrapDemo */,
 				2B014C881E9C6DE900DE4732 /* AppDelegate.h */,
 				2B014C891E9C6DE900DE4732 /* AppDelegate.m */,
 				2B014C8B1E9C6DE900DE4732 /* ViewController.h */,
@@ -117,6 +164,7 @@
 		2B014C851E9C6DE900DE4732 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B014CBF1E9CA7E300DE4732 /* PrefixHeader.pch */,
 				2B014C861E9C6DE900DE4732 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +188,246 @@
 			path = WristStrapDemoUITests;
 			sourceTree = "<group>";
 		};
+		2B6278DB1EA5F0C900FC9838 /* WristStrapDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278DC1EA5F0C900FC9838 /* DataManager */,
+				2B6278DF1EA5F0C900FC9838 /* libs */,
+				2B6278E21EA5F0C900FC9838 /* Source */,
+				2B6278E31EA5F0C900FC9838 /* WristStrapHome */,
+				2B6278E91EA5F0C900FC9838 /* WristStrapReminder */,
+				2B6278ED1EA5F0C900FC9838 /* WristStrapSetting */,
+				2B6278F11EA5F0C900FC9838 /* WristStrapSleep */,
+				2B6278F51EA5F0C900FC9838 /* WristStrapSport */,
+			);
+			path = WristStrapDemo;
+			sourceTree = "<group>";
+		};
+		2B6278DC1EA5F0C900FC9838 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278DD1EA5F0C900FC9838 /* OBDataManager.h */,
+				2B6278DE1EA5F0C900FC9838 /* OBDataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		2B6278DF1EA5F0C900FC9838 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278E01EA5F0C900FC9838 /* libSharkeySDKWithiOS.a */,
+				2B6278E11EA5F0C900FC9838 /* WCDSharkeyFunction.h */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		2B6278E21EA5F0C900FC9838 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		2B6278E31EA5F0C900FC9838 /* WristStrapHome */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278FF1EA5F2D800FC9838 /* Common */,
+				2B6278E41EA5F0C900FC9838 /* Controller */,
+				2B6278E51EA5F0C900FC9838 /* Model */,
+				2B6278E81EA5F0C900FC9838 /* View */,
+			);
+			path = WristStrapHome;
+			sourceTree = "<group>";
+		};
+		2B6278E41EA5F0C900FC9838 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278FC1EA5F16400FC9838 /* SYWristStapHomeViewController.h */,
+				2B6278FD1EA5F16400FC9838 /* SYWristStapHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B6278E51EA5F0C900FC9838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278E61EA5F0C900FC9838 /* WristStrapModel.h */,
+				2B6278E71EA5F0C900FC9838 /* WristStrapModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B6278E81EA5F0C900FC9838 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B6278E91EA5F0C900FC9838 /* WristStrapReminder */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278EA1EA5F0C900FC9838 /* Controller */,
+				2B6278EB1EA5F0C900FC9838 /* Model */,
+				2B6278EC1EA5F0C900FC9838 /* View */,
+			);
+			path = WristStrapReminder;
+			sourceTree = "<group>";
+		};
+		2B6278EA1EA5F0C900FC9838 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B6278EB1EA5F0C900FC9838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B6278EC1EA5F0C900FC9838 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B6278ED1EA5F0C900FC9838 /* WristStrapSetting */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278EE1EA5F0C900FC9838 /* Controller */,
+				2B6278EF1EA5F0C900FC9838 /* Model */,
+				2B6278F01EA5F0C900FC9838 /* View */,
+			);
+			path = WristStrapSetting;
+			sourceTree = "<group>";
+		};
+		2B6278EE1EA5F0C900FC9838 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B6278EF1EA5F0C900FC9838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B6278F01EA5F0C900FC9838 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B6278F11EA5F0C900FC9838 /* WristStrapSleep */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278F21EA5F0C900FC9838 /* Controller */,
+				2B6278F31EA5F0C900FC9838 /* Model */,
+				2B6278F41EA5F0C900FC9838 /* View */,
+			);
+			path = WristStrapSleep;
+			sourceTree = "<group>";
+		};
+		2B6278F21EA5F0C900FC9838 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B62790A1EA60E6C00FC9838 /* SYSleepViewController.h */,
+				2B62790B1EA60E6C00FC9838 /* SYSleepViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B6278F31EA5F0C900FC9838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B6278F41EA5F0C900FC9838 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B62790D1EA60E8400FC9838 /* OBChart.h */,
+				2B62790E1EA60E8400FC9838 /* OBChart.m */,
+				2B62790F1EA60E8400FC9838 /* OBColumnChart.h */,
+				2B6279101EA60E8400FC9838 /* OBColumnChart.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B6278F51EA5F0C900FC9838 /* WristStrapSport */ = {
+			isa = PBXGroup;
+			children = (
+				2B6278F61EA5F0C900FC9838 /* Controller */,
+				2B6278F71EA5F0C900FC9838 /* Model */,
+				2B6278F81EA5F0C900FC9838 /* View */,
+			);
+			path = WristStrapSport;
+			sourceTree = "<group>";
+		};
+		2B6278F61EA5F0C900FC9838 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2B6279011EA6092A00FC9838 /* SYSportViewController.h */,
+				2B6279021EA6092A00FC9838 /* SYSportViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		2B6278F71EA5F0C900FC9838 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2B6278F81EA5F0C900FC9838 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2B6279041EA60A8900FC9838 /* OBRoundView.h */,
+				2B6279051EA60A8900FC9838 /* OBRoundView.m */,
+				2B6279061EA60A8900FC9838 /* OBSportView.h */,
+				2B6279071EA60A8900FC9838 /* OBSportView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2B6278FF1EA5F2D800FC9838 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2B6279001EA5F2F500FC9838 /* WristStrapCommon.h */,
+				2B9BE7821EA7116D0068BCEE /* SYHomeModule.h */,
+				2B9BE7831EA7116D0068BCEE /* SYHomeModule.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B92F5F6F1626F720F26E5EA3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B4760171E9DC9830032799D /* libSharkeySDKWithiOS.a */,
+				8EB9CE692CFA3C43548DBFCC /* libPods-WristStrapDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4BA19F69F5371080EE5E1F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9D152EFC5776DAD04E60E72A /* Pods-WristStrapDemo.debug.xcconfig */,
+				58BD3C0C7DA3DEAA60E39F02 /* Pods-WristStrapDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +435,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2B014CAF1E9C6DE900DE4732 /* Build configuration list for PBXNativeTarget "WristStrapDemo" */;
 			buildPhases = (
+				53843F1865E922E4F7B0E46B /* [CP] Check Pods Manifest.lock */,
 				2B014C7E1E9C6DE900DE4732 /* Sources */,
 				2B014C7F1E9C6DE900DE4732 /* Frameworks */,
 				2B014C801E9C6DE900DE4732 /* Resources */,
+				87F12F9CE4F610699225806D /* [CP] Embed Pods Frameworks */,
+				6C0023417C11901A880ECEBC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -202,6 +493,7 @@
 		2B014C7A1E9C6DE900DE4732 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = SY;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = obally;
 				TargetAttributes = {
@@ -271,14 +563,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		53843F1865E922E4F7B0E46B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0023417C11901A880ECEBC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WristStrapDemo/Pods-WristStrapDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87F12F9CE4F610699225806D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WristStrapDemo/Pods-WristStrapDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2B014C7E1E9C6DE900DE4732 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B62790C1EA60E6C00FC9838 /* SYSleepViewController.m in Sources */,
+				2B6278FB1EA5F0C900FC9838 /* WristStrapModel.m in Sources */,
+				2B6278FE1EA5F16400FC9838 /* SYWristStapHomeViewController.m in Sources */,
+				2B6279121EA60E8400FC9838 /* OBColumnChart.m in Sources */,
+				2B6279091EA60A8900FC9838 /* OBSportView.m in Sources */,
+				2B6278F91EA5F0C900FC9838 /* OBDataManager.m in Sources */,
 				2B014C8D1E9C6DE900DE4732 /* ViewController.m in Sources */,
+				2B6279081EA60A8900FC9838 /* OBRoundView.m in Sources */,
+				2B6279111EA60E8400FC9838 /* OBChart.m in Sources */,
 				2B014C8A1E9C6DE900DE4732 /* AppDelegate.m in Sources */,
 				2B014C871E9C6DE900DE4732 /* main.m in Sources */,
+				2B6279031EA6092A00FC9838 /* SYSportViewController.m in Sources */,
+				2B9BE7841EA7116D0068BCEE /* SYHomeModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,25 +775,53 @@
 		};
 		2B014CB01E9C6DE900DE4732 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D152EFC5776DAD04E60E72A /* Pods-WristStrapDemo.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9BU355MET;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WristStrapDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WristStrapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WristStrapDemo",
+					"$(PROJECT_DIR)/WristStrapDemo/WristStrapDemo",
+					"$(PROJECT_DIR)/WristStrapDemo/WristStrapDemo/libs",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.WristStrapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		2B014CB11E9C6DE900DE4732 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58BD3C0C7DA3DEAA60E39F02 /* Pods-WristStrapDemo.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = H9BU355MET;
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WristStrapDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = WristStrapDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WristStrapDemo",
+					"$(PROJECT_DIR)/WristStrapDemo/WristStrapDemo",
+					"$(PROJECT_DIR)/WristStrapDemo/WristStrapDemo/libs",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.synjones.WristStrapDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
@@ -516,6 +894,7 @@
 				2B014CB11E9C6DE900DE4732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B014CB21E9C6DE900DE4732 /* Build configuration list for PBXNativeTarget "WristStrapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +903,7 @@
 				2B014CB41E9C6DE900DE4732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B014CB51E9C6DE900DE4732 /* Build configuration list for PBXNativeTarget "WristStrapDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +912,7 @@
 				2B014CB71E9C6DE900DE4732 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

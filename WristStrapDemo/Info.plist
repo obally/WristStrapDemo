@@ -41,5 +41,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>App Transport SecuritySettings</key>
+	<dict>
+		<key>Allow Arbitray Loads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
