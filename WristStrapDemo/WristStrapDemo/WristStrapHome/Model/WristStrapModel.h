@@ -13,7 +13,10 @@
  */
 @interface WristStrapModel : NSObject
 //@property(nonatomic,strong) Sharkey *sharKey;
+#if TARGET_IPHONE_SIMULATOR
+#else
 @property(nonatomic,assign) PAIRTYPE pairType;
+#endif
 @property(nonatomic,strong) NSString *identifier;
 @property(nonatomic,strong) NSString *firmwareVerison;
 @property(nonatomic,strong) NSString *serialNumber;

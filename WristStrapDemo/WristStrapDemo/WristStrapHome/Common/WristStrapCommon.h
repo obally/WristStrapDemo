@@ -8,8 +8,10 @@
 
 #ifndef WristStrapCommon_h
 #define WristStrapCommon_h
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #import "WCDSharkeyFunction.h"
+#endif
 #import "OBBase.h"
 #import <MGJRouter/MGJRouter.h>
 #define RGBAlphaColor(a,b,c,ap) [UIColor colorWithRed:((float)a)/255.0 green:((float)b)/255.0 blue:((float)c)/255.0 alpha:ap]

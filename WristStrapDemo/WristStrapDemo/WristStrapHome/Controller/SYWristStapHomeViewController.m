@@ -11,9 +11,11 @@
 #import "OBDataManager.h"
 #import "SYSportViewController.h"
 #import "SYSleepViewController.h"
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYWristStapHomeViewController ()<WCDSharkeyFunctionDelegate>
 @property(nonatomic,strong)WCDSharkeyFunction *shareKey;
+
 @property(nonatomic,strong)WristStrapModel *strapModel; //手环数据
 @property(nonatomic,strong)Sharkey *sharKey;
 
@@ -30,9 +32,12 @@
 
 
 @end
-
+#endif
 @implementation SYWristStapHomeViewController
+
 #pragma mark - life circle
+#if TARGET_IPHONE_SIMULATOR
+#else
 - (void)viewDidLoad {
     [super viewDidLoad];
     //添加相关视图
@@ -42,8 +47,10 @@
     self.navigationController.navigationBar.translucent = NO;
     self.title = @"新中新手环";
     self.view.backgroundColor = RGBColor(239, 240, 241);
+
     self.shareKey = [WCDSharkeyFunction shareInitializationt];
     self.shareKey.delegate = self;
+    
 }
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -296,4 +303,5 @@
     }
     return _bottomSettingButton;
 }
+#endif
 @end

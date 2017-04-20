@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "WristStrapModel.h"
 #import "OBDataManager.h"
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface ViewController ()<WCDSharkeyFunctionDelegate>
 @property(nonatomic,strong)WCDSharkeyFunction *shareKey;
 @property(nonatomic,strong)WristStrapModel *strapModel; //手环数据
@@ -16,9 +18,10 @@
 
 
 @end
-
+#endif
 @implementation ViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.shareKey = [WCDSharkeyFunction shareInitializationt];
@@ -183,4 +186,5 @@
 {
     NSLog(@"设置事件成功");
 }
+#endif
 @end

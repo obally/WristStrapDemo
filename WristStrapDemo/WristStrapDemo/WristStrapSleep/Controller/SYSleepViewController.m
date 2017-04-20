@@ -8,15 +8,17 @@
 
 #import "SYSleepViewController.h"
 #import "OBColumnChart.h"
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYSleepViewController ()<WCDSharkeyFunctionDelegate>
 @property(nonatomic,strong)WCDSharkeyFunction *shareKey;
 
 
 @end
-
+#endif
 @implementation SYSleepViewController
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 #pragma mark - life circle
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -113,4 +115,5 @@
     NSLog(@"睡眠数据 ----------%@",dateString);
 }
 #pragma mark - getter and setter
+#endif
 @end

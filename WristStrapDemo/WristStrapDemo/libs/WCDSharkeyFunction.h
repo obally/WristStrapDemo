@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
 #import <UIKit/UIKit.h>
+#if TARGET_IPHONE_SIMULATOR
+#else
 @class AppDelegate;
 
 /**
@@ -575,3 +577,4 @@ typedef void (^QueryCardNumberBlockHandler)(BOOL flag, NSString *cardNumber);
 
 
 @end
+#endif

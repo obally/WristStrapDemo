@@ -8,16 +8,19 @@
 
 #import "SYSportViewController.h"
 #import "OBSportView.h"
-
+#if TARGET_IPHONE_SIMULATOR
+#else
 @interface SYSportViewController ()<WCDSharkeyFunctionDelegate>
 @property(nonatomic,strong)WCDSharkeyFunction *shareKey;
 @property(nonatomic,strong) OBSportView *sportView;
 
 
 @end
-
+#endif
 @implementation SYSportViewController
 #pragma mark - life circle
+#if TARGET_IPHONE_SIMULATOR
+#else
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
@@ -79,4 +82,5 @@
     }
     return _sportView;
 }
+#endif
 @end

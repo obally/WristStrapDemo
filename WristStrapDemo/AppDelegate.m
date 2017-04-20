@@ -17,7 +17,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+#if TARGET_IPHONE_SIMULATOR
+#else
     [WCDSharkeyFunction configuration:self isRelease:YES];
+#endif
    
     return YES;
 }
