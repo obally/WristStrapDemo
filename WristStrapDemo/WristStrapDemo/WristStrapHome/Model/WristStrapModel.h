@@ -16,7 +16,7 @@
 #if TARGET_IPHONE_SIMULATOR
 #else
 @property(nonatomic,assign) PAIRTYPE pairType;
-#endif
+
 @property(nonatomic,strong) NSString *identifier;
 @property(nonatomic,strong) NSString *firmwareVerison;
 @property(nonatomic,strong) NSString *serialNumber;
@@ -28,5 +28,5 @@
 @property(nonatomic,strong) CBUUID *uuid;
 @property(nonatomic,strong) NSString *modelType;
 + (WristStrapModel *)shareModel; //单例创建
-
+#endif
 @end
