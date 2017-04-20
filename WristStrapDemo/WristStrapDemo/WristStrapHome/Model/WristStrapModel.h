@@ -23,8 +23,6 @@
 @property(nonatomic,strong) NSString *modelName;
 @property(nonatomic,strong) NSString *name;
 @property(nonatomic,strong) NSString *bleVersion;
-//@property(nonatomic,strong) CBPeripheral *peripheral;
-//@property(nonatomic,strong) CBUUID *uuid;
 @property(nonatomic,strong) NSString *modelType;
 + (WristStrapModel *)shareModel; //单例创建
 #endif
